@@ -1,10 +1,10 @@
 import React from 'react';
 import logoNav from '../../images/LogoNav.png';
-import './nav.css';
+import styles from './Nav.module.css';
 
-export const Nav = () => {
+const Nav = () => {
   return (
-    <nav>
+    <nav className={styles.ContenedorNav}>
         <ul>
             <li><img src={logoNav}/></li>
             <li><a href="">Inicio</a></li>
@@ -16,3 +16,4 @@ export const Nav = () => {
     </nav>
   )
 }
+export default Nav;

@@ -1,0 +1,39 @@
+.ContenedorNav {
+  position: sticky;
+  top: 0;
+  background-color: #0c0a943b;
+  padding: 10px;
+  z-index: 100;
+}
+
+.ContenedorNav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.ContenedorNav img {
+  width: 30px;
+}
+
+.ContenedorNav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.ContenedorNav ul li:nth-child(2) {
+  margin-left: 40px;
+}
+
+.ContenedorNav ul li a {
+  text-decoration: none;
+  color: #333;
+  padding: 5px 10px;
+}
+
+.ContenedorNav ul li a:hover {
+  text-decoration: underline;
+  color: #ffffff;
+}
